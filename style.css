@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(187, 121, 249);
+    border: 2px solid black;
+}
+.box:hover{
+    background-color: rgb(246, 162, 51);
+}
+.boxcontent{
+    display: flex;
+    align-items: center;
+    font-size: 2.2rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.containor{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: repeat(3,15vw);
+    grid-template-columns: repeat(3,20vw);
+    margin-top: 5%;
+    border-radius: 10px;
+}
+.gameinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    font-family: cursive;
+}
+button{
+    background-color: rgb(227, 192, 227);
+    font-size: 1.2rem;
+    font-family: cursive;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: aliceblue;
+}
